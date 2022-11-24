@@ -1,6 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
+
 def reading_image(path):
     img = cv2.imread(filename=path, )
     cv2.imshow("image", img)
@@ -25,5 +26,5 @@ if __name__ == "__main__":
     print("number channels: ", number_channels)
     print("size: ", size)
     print("dtype: ", dtype)
-    print("display rgb image: ", plt.imshow(img[:,:,::-1]))
+    print("display rgb image: ", plt.imshow(img[:, :, ::-1]))
     print(img[0, 0])
