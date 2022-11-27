@@ -3,3 +3,4 @@ opencv-python==4.6.0.66
 pre-commit==2.20.0
 matplotlib==3.6.2
 autopep8==2.0.0
+scipy==1.9.3
