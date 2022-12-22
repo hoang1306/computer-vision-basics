@@ -5,3 +5,4 @@
 <h2>Lesson 3. Image resizing (file code: <a href="#">img_resizing.cpp</a>)</h2>
 <h2>Lesson 4. cropping an images (file code: <a href="#">cropping_an_images.cpp</a>)</>
 <h2>Lesson 5. Image rotation and transforming (file code : <a href="#">img_rotation_and_translation.cpp</a>)</h2>
+<h2>Lesson 6. Color spaces (file code: <a href="#">color_spaces.cpp</a>)</h2>
