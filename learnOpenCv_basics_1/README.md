@@ -6,3 +6,7 @@
 <h2>Lesson 4. cropping an images (file code: <a href="#">cropping_an_images.cpp</a>)</>
 <h2>Lesson 5. Image rotation and transforming (file code : <a href="#">img_rotation_and_translation.cpp</a>)</h2>
 <h2>Lesson 6. Color spaces (file code: <a href="#">color_spaces.cpp</a>)</h2>
+
+
+<h3>note: học lại về  vector, matrix, không gian màu (tạm thế đã vì chưa nghĩ được gì).</h3>
+<h3>đứa nào sử dụng <code>using namespace std; and using namespace cv;</code> trong code thì biến cho gọn mắt tao vì tao tao hard-core với chính mình</h3>
