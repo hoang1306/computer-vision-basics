@@ -9,4 +9,3 @@
 
 
 <h3>note: học lại về  vector, matrix, không gian màu (tạm thế đã vì chưa nghĩ được gì).</h3>
-<h3>đứa nào sử dụng <code>using namespace std; and using namespace cv;</code> trong code thì biến cho gọn mắt tao vì tao tao hard-core với chính mình</h3>
