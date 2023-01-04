@@ -1,0 +1,1 @@
+<h2> note: height, width, channels = img.shape </h2>
