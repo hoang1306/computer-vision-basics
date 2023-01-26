@@ -1,8 +1,10 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
+
 using namespace std;
 using namespace cv;
+
 
 int max_scale_up = 100;
 int scale_factor = 1;

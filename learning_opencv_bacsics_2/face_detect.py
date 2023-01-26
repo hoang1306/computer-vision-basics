@@ -1,6 +1,6 @@
 import cv2 as cv
 
-# img = cv.imread('../Resources/Photos/lady.jpg')
+
 img = cv.imread('../Resources/Photos/group 2.jpg')
 cv.imshow('Person', img)
 

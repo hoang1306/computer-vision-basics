@@ -1,6 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
+
 void dividing_an_image(cv::Mat img)
 {
     int img_height = img.size().height;

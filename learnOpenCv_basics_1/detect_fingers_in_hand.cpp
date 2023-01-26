@@ -4,8 +4,10 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 
+
 using namespace std;
 using namespace cv;
+
 
 Mat src, src_gray;
 int min_thresh = 120;

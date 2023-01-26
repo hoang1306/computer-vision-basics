@@ -7,7 +7,6 @@ int main(){
     cv::Mat img = cv::imread(img_path);
     cv::Mat img_line = img.clone();
     // imshow("origin images", img);
-    // cv::waitKey();
     if(img.empty()){
         std::cout << "Could not read image" << std::endl;
     }

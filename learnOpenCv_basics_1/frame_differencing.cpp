@@ -2,8 +2,11 @@
 #include <random>
 #include <opencv2/opencv.hpp>
 
+
 using namespace std;
 using namespace cv;
+
+
 int compute_median(vector<int> elements)
 {
     nth_element(elements.begin(), elements.begin() + elements.size() / 2, elements.end());

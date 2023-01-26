@@ -1,5 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
+
+
 using namespace std;
 using namespace cv;
 
@@ -14,6 +16,8 @@ using namespace cv;
 // #define box_blur mat3(1, 1, 1, 1, 1, 1, 1, 1, 1) * 0.1111
 // #define gaussian_blur mat3(1, 2, 1, 2, 4, 2, 1, 2, 1) * 0.0625
 // #define emboss mat3(-2, -1, 0, -1, 1, 1, 0, 1, 2)
+
+
 int main()
 {
     std::string img_path = "../images/wood.jpg";

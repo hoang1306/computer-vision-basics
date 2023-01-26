@@ -1,9 +1,13 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
+
+
 // step in writing this code
 // 1. read an image
 // 2. display the image
 // 3. write an images
+
+
 int main()
 {
     // include path image

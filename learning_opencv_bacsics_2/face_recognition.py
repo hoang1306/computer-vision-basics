@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+
 root_path_val = r'../Resources/Faces/val/elton_john'
 
 people = ['Madonna', 'Ben Afflek', 'Mindy Kaling',
@@ -16,8 +17,6 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
 img = cv.imread(root_path_val + "/1.jpg")
-# img = cv.imread("../images/justin_biber.jpg")
-
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('person', gray)

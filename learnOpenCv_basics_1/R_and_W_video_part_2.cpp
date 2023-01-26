@@ -1,11 +1,15 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
+
+
 // Reading an Image Sequence
 // 1. create a video capture object
 // 2. obtain frame size information using get() method
 // 3. init video write object
 // 4. save video
 // 5. release the objects
+
+
 int main()
 {
     // 1. create a video capture object

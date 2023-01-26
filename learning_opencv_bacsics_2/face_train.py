@@ -2,15 +2,12 @@ import os
 import cv2 as cv
 import numpy as np
 
+
 people = ['Madonna', 'Ben Afflek', 'Mindy Kaling',
           'Jerry Seinfield', 'Elton John']
 root_path = r'../Resources/Faces/train'
 
 haar_cascade = cv.CascadeClassifier('../data_model/haar_face.xml')
-# name_folder = []
-# for i in os.listdir(root_path):
-#     name_folder.append(i)
-# print(name_folder)
 
 
 def create_train():
@@ -38,10 +35,6 @@ def create_train():
 
 features, labels = create_train()
 print('training =======================> done')
-# print(f'Length of the features =  {len(features)}')
-# print(f'Length of the labels = {len(labels)}')
-# print(features)
-# print(labels)
 features = np.array(features, dtype='object')
 labels = np.array(labels)
 

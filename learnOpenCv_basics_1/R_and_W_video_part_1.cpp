@@ -1,9 +1,13 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
+
+
 // 1. Create a video capture object
 // 2. Obtain fps and frame count by get() method and print
 // 3. reading a video
 // 4. release video capture object
+
+
 int main()
 {
     // 1. create a video capture object
