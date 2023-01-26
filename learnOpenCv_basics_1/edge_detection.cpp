@@ -5,7 +5,7 @@ using namespace std;
 using namespace cv;
 
 int main(){
-    string img_path = "../images/anh-ho-dep.jpg";
+    string img_path = "../images/tiger.jpg";
     Mat img = imread(img_path, 0);
     imshow("anh ho origin", img);
     Mat img_blur;
